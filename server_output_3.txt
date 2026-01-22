@@ -1,0 +1,149 @@
+[dotenv@17.2.3] injecting env (4) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+MongoDB Connected
+Server started on port 5000
+=== REGISTRATION ERROR ===
+Message: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+Stack: MongoServerError: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+    at InsertOneOperation.handleOk (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/insert.js:51:19)
+    at tryOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:216:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:80:16)
+    at async Collection.insertOne (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/collection.js:154:16)
+    at async model.$__save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:398:16)
+    at async model.save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:609:5)
+    at async /home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/routes/auth.js:49:9
+=== REGISTRATION ERROR ===
+Message: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+Stack: MongoServerError: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+    at InsertOneOperation.handleOk (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/insert.js:51:19)
+    at tryOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:216:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:80:16)
+    at async Collection.insertOne (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/collection.js:154:16)
+    at async model.$__save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:398:16)
+    at async model.save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:609:5)
+    at async /home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/routes/auth.js:49:9
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+=== REGISTRATION ERROR ===
+Message: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+Stack: MongoServerError: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+    at InsertOneOperation.handleOk (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/insert.js:51:19)
+    at tryOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:216:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:80:16)
+    at async Collection.insertOne (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/collection.js:154:16)
+    at async model.$__save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:398:16)
+    at async model.save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:609:5)
+    at async /home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/routes/auth.js:49:9
+=== REGISTRATION ERROR ===
+Message: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+Stack: MongoServerError: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+    at InsertOneOperation.handleOk (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/insert.js:51:19)
+    at tryOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:216:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:80:16)
+    at async Collection.insertOne (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/collection.js:154:16)
+    at async model.$__save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:398:16)
+    at async model.save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:609:5)
+    at async /home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/routes/auth.js:49:9
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+=== REGISTRATION ERROR ===
+Message: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+Stack: MongoServerError: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+    at InsertOneOperation.handleOk (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/insert.js:51:19)
+    at tryOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:216:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:80:16)
+    at async Collection.insertOne (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/collection.js:154:16)
+    at async model.$__save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:398:16)
+    at async model.save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:609:5)
+    at async /home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/routes/auth.js:49:9
+Login Request Body: { email: 'prof_final_test@iitrpr.ac.in', password: 'Password123' }
+Checking Admin: prof_final_test@iitrpr.ac.in Password123
+Login Request Body: { email: 'admin@iitrpr.ac.in', password: 'Password123' }
+Checking Admin: admin@iitrpr.ac.in Password123
+Login Request Body: { email: '2023csb1172@iitrpr.ac.in', password: 'Password123' }
+Checking Admin: 2023csb1172@iitrpr.ac.in Password123
+Login Request Body: { email: '2021csb0001@iitrpr.ac.in', password: 'Password123' }
+Checking Admin: 2021csb0001@iitrpr.ac.in Password123
+Login Request Body: { email: 'faculty_fixed@iitrpr.ac.in', password: 'Password123' }
+Checking Admin: faculty_fixed@iitrpr.ac.in Password123
+Login Request Body: { email: '2023csb1143@iitrpr.ac.in', password: 'Password123' }
+Checking Admin: 2023csb1143@iitrpr.ac.in Password123
+Login Request Body: { email: 'admin@aims.com', password: 'Password123' }
+Checking Admin: admin@aims.com Password123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: '2021csb0001@iitrpr.ac.in', password: 'Password123' }
+Checking Admin: 2021csb0001@iitrpr.ac.in Password123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: '2021csb0001@iitrpr.ac.in', password: 'Password123' }
+Checking Admin: 2021csb0001@iitrpr.ac.in Password123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: '2021csb0001@iitrpr.ac.in', password: 'Password123' }
+Checking Admin: 2021csb0001@iitrpr.ac.in Password123
+Login Request Body: { email: 'faculty_fixed@iitrpr.ac.in', password: 'Password123' }
+Checking Admin: faculty_fixed@iitrpr.ac.in Password123
+Login Request Body: { email: '2021csb0001@iitrpr.ac.in', password: 'Password123' }
+Checking Admin: 2021csb0001@iitrpr.ac.in Password123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
+Login Request Body: { email: '2023csb1172@iitrpr.ac.in', password: '1234' }
+Checking Admin: 2023csb1172@iitrpr.ac.in 1234
+=== REGISTRATION ERROR ===
+Message: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+Stack: MongoServerError: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+    at InsertOneOperation.handleOk (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/insert.js:51:19)
+    at tryOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:216:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:80:16)
+    at async Collection.insertOne (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/collection.js:154:16)
+    at async model.$__save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:398:16)
+    at async model.save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:609:5)
+    at async /home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/routes/auth.js:49:9
+=== REGISTRATION ERROR ===
+Message: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+Stack: MongoServerError: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+    at InsertOneOperation.handleOk (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/insert.js:51:19)
+    at tryOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:216:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:80:16)
+    at async Collection.insertOne (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/collection.js:154:16)
+    at async model.$__save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:398:16)
+    at async model.save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:609:5)
+    at async /home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/routes/auth.js:49:9
+=== REGISTRATION ERROR ===
+Message: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+Stack: MongoServerError: E11000 duplicate key error collection: aims_db.users index: rollNumber_1 dup key: { rollNumber: null }
+    at InsertOneOperation.handleOk (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/insert.js:51:19)
+    at tryOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:216:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperation (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/operations/execute_operation.js:80:16)
+    at async Collection.insertOne (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongodb/lib/collection.js:154:16)
+    at async model.$__save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:398:16)
+    at async model.save (/home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/node_modules/mongoose/lib/model.js:609:5)
+    at async /home/vikash-mehra/Tree/WebDev/AIMS/AIMS/server/routes/auth.js:49:9

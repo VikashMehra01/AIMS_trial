@@ -1,0 +1,7 @@
+[dotenv@17.2.3] injecting env (4) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+MongoDB Connected
+Server started on port 5000
+Login Request Body: { email: '2023csb1143@iitrpr.ac.in', password: '1234' }
+Checking Admin: 2023csb1143@iitrpr.ac.in 1234
+Login Request Body: { email: 'admin@aims.com', password: 'admin123' }
+Checking Admin: admin@aims.com admin123
